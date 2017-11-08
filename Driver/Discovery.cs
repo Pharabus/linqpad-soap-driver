@@ -20,6 +20,7 @@ namespace Driver
         // Handle SSL cert errors (see http://stackoverflow.com/questions/777607/the-remote-certificate-is-invalid-according-to-the-validation-procedure-ple)
         static Discovery()
         {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
             ServicePointManager.ServerCertificateValidationCallback = OnServerCertificateValidationCallback;
         }
 

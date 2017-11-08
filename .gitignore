@@ -16,3 +16,13 @@ releases/*
 packages/*
 !packages/edge
 !packages/nuget.exe
+/.vs/VSWorkspaceState.json
+/.vs/tasks.vs.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/config/applicationhost.config
+/.vs/SoapContextDriver/v15/Server/sqlite3/storage.ide-wal
+/.vs/SoapContextDriver/v15/Server/sqlite3/storage.ide-shm
+/.vs/SoapContextDriver/v15/Server/sqlite3/storage.ide
+/.vs/SoapContextDriver/v15/Server/sqlite3/db.lock
+/.vs/SoapContextDriver/v15/Server/sqlite3
